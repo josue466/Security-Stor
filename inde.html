@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Security Stor – Seguridad en el Transporte Público</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Security Stor protege a los usuarios del transporte público en Perú con alertas inmediatas y funciones de seguridad.">
+  <meta name="keywords" content="Security Stor, seguridad, transporte público, alertas, Perú">
+  <meta name="author" content="TuNombre">
+  
+  <!-- Bootstrap 5 CSS (CDN) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome (CDN) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER / NAVBAR (sticky) -->
+  <header class="bg-light shadow-sm sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light container">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="img/security.png" alt="Security Stor" class="logo me-2">
+        <span class="fw-bold">Security Stor</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="#hero">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#features">Características</a></li>
+          <li class="nav-item"><a class="nav-link" href="#mockup">Novedades</a></li>
+        </ul>
+      </div>
+      <div class="d-none d-lg-block">
+        <a href="https://www.facebook.com/profile.php?id=61574622961757" class="me-2 text-dark"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/storsecurity?igsh=MWE2MW51cmJ3cHpoeA==" class="me-2 text-dark"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.tiktok.com" class="text-dark"><i class="fab fa-tiktok"></i></a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION (con botón de descarga de Play Store) -->
+  <section id="hero" class="hero-section d-flex align-items-center">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Texto principal -->
+        <div class="col-md-6 text-white mb-4 mb-md-0">
+          <h1 class="display-4 fw-bold animate__animated animate__fadeInDown">Security Stor</h1>
+          <p class="lead animate__animated animate__fadeInUp">
+            Protege a los usuarios del transporte público en Perú, brindando respuestas rápidas y seguras en momentos de emergencia.
+          </p>
+          <!-- Botón de descarga en Google Play -->
+          <a href="#" class="btn btn-lg btn-playstore animate__animated animate__fadeInUp">
+            <i class="fab fa-google-play me-2"></i>Descargar en Google Play
+          </a>
+        </div>
+        <!-- Imagen principal -->
+        <div class="col-md-6 text-center animate__animated animate__fadeInRight">
+          <img src="img/app-menu.png" alt="Vista de la App" class="img-fluid rounded shadow">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES SECTION -->
+  <section id="features" class="py-5 bg-white">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold text-primary">Características Principales</h2>
+        <p class="text-muted">Funciones que te brindan seguridad y control en cada viaje.</p>
+      </div>
+      <div class="row g-4">
+        <!-- Tarjeta 1 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card feature-card shadow-sm">
+            <img src="img/app-menu.png" class="card-img-top" alt="Interfaz Intuitiva">
+            <div class="card-body">
+              <h5 class="card-title text-danger">Interfaz Intuitiva</h5>
+              <p class="card-text">Acceso rápido al botón de pánico y notificaciones en tiempo real, diseñado para actuar en segundos.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Tarjeta 2 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card feature-card shadow-sm">
+            <img src="img/alerta.png" class="card-img-top" alt="Alerta Inmediata">
+            <div class="card-body">
+              <h5 class="card-title text-danger">Alerta Inmediata</h5>
+              <p class="card-text">Activación instantánea de alertas visuales y sonoras para notificar a tus contactos y emergencias.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Tarjeta 3 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card feature-card shadow-sm">
+            <img src="img/alerta-mensaje.png" class="card-img-top" alt="Confirmación de Envío">
+            <div class="card-body">
+              <h5 class="card-title text-danger">Confirmación de Envío</h5>
+              <p class="card-text">Recibe notificaciones que confirman que tu alerta ha sido enviada exitosamente a tus contactos.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Tarjeta 4 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card feature-card shadow-sm">
+            <img src="img/alerta-enviada.png" class="card-img-top" alt="Historial de Alertas">
+            <div class="card-body">
+              <h5 class="card-title text-danger">Historial de Alertas</h5>
+              <p class="card-text">Consulta un registro detallado de alertas enviadas para evaluar incidentes y reforzar tu seguridad.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MOCKUP SECTION (Novedades) -->
+  <section id="mockup" class="py-5 bg-light">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Imagen estilo mockup -->
+        <div class="col-md-5 text-center mb-4 mb-md-0">
+          <div class="phone-mockup position-relative">
+            <img src="img/app-menu.png" alt="Phone Mockup" class="img-fluid rounded shadow">
+            <span class="badge bg-warning text-dark position-absolute mockup-badge badge-new">NEW</span>
+            <span class="badge bg-primary position-absolute mockup-badge badge-free">Free</span>
+          </div>
+        </div>
+        <!-- Texto de novedades -->
+        <div class="col-md-7">
+          <h2 class="fw-bold text-primary">Novedades</h2>
+          <p class="text-muted">
+            Ahora puedes gestionar tus alertas de manera más rápida con nuestra nueva interfaz renovada. 
+            Disfruta de un diseño moderno y amigable que te permite acceder a todas las funciones de Security Stor sin complicaciones.
+          </p>
+          <ul class="list-unstyled mb-4">
+            <li><i class="fas fa-bolt text-danger me-2"></i> Mayor velocidad en el envío de alertas</li>
+            <li><i class="fas fa-users text-danger me-2"></i> Nuevo sistema de contactos de emergencia</li>
+            <li><i class="fas fa-map-marker-alt text-danger me-2"></i> Geolocalización precisa en tiempo real</li>
+          </ul>
+          <!-- Redes sociales de ejemplo -->
+          <div class="social-icons">
+            <a href="#" class="text-dark me-3"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-dark me-3"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="text-dark"><i class="fab fa-tiktok"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-dark text-white py-3">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+      <p class="mb-0">&copy; 2025 Security Stor. Todos los derechos reservados.</p>
+      <div>
+        <a href="#hero" class="text-white me-3">Inicio</a>
+        <a href="#features" class="text-white me-3">Características</a>
+        <a href="#mockup" class="text-white">Novedades</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JS Bundle (CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
